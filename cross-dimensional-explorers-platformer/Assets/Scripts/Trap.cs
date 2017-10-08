@@ -15,6 +15,11 @@ public class Trap : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collided)
