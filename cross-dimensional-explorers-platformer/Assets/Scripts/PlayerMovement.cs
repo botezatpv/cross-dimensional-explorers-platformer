@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
     bool facingRight = true;
     Rigidbody2D playerRigidbody;
     Animator anim;
+    public Transform playerTransform;
     float groundRadius = 0.2f;
     // Use this for initialization
     void Awake () {
