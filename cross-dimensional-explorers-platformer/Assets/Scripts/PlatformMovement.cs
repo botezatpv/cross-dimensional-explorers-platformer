@@ -11,7 +11,7 @@ public class PlatformMovement : MonoBehaviour {
     Vector2 target;
     public bool moveInOneEnd = false;
     public bool moveStraightToStart = false;
-    int index = 0;
+    int nextPointIndex = 0;
     Transform platformPosition;
     Transform parent;
     public float movement;
@@ -24,9 +24,9 @@ public class PlatformMovement : MonoBehaviour {
 	void Update () {
         float platformX = platformPosition.transform.position.x;
         float platformY = platformPosition.transform.position.y;
-        if (index < coordinates.Length)
+        if (nextPointIndex < coordinates.Length)
         {
-            target = coordinates[index];
+            target = coordinates[nextPointIndex];
             if (target.x - platformX >= 0) directionX = 1;
             else if (target.x - platformX <= 0) directionX = -1;
 
@@ -45,7 +45,7 @@ public class PlatformMovement : MonoBehaviour {
             /**
              * If platform reached target point go to next one
              */
-            if (Mathf.Abs(Vector2.Distance(target, platformPosition.transform.position)) <= 0.2) index += 1;
+            if (Mathf.Abs(Vector2.Distance(target, platformPosition.transform.position)) <= 0.2) nextPointIndex += 1;
 
             platformPosition.Translate(new Vector3(speed * directionX * sinPhi * Time.deltaTime, speed * directionY * cosPhi * Time.deltaTime, 0));
         } else if (!moveInOneEnd && !moveStraightToStart)
@@ -53,9 +53,9 @@ public class PlatformMovement : MonoBehaviour {
             /**
              * Going back to start point and visaverse
              */
-            index = 0;
+            nextPointIndex = 0;
             System.Array.Reverse(coordinates);
-        } else if (moveStraightToStart && !moveInOneEnd) index = 0;
+        } else if (moveStraightToStart && !moveInOneEnd) nextPointIndex = 0;
 
     }
 
