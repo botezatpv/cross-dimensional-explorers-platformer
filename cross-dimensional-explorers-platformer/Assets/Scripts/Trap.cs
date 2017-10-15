@@ -17,10 +17,13 @@ public class Trap : MonoBehaviour {
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collided)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("TrapObject"))
         {
-            player.Respawn();
-            collided = true;
+            if (!collided)
+            {
+                player.Respawn();
+                collided = true;
+            }
         }
     }
 
