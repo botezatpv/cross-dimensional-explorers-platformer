@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: f11a6b43e2dba77449fad80894a3e74d
+timeCreated: 1508076136
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FireballsBig_0
+    21300002: FireballsBig_1
+    21300004: FireballsBig_2
+    21300006: FireballsBig_3
+    21300008: FireballsBig_4
+    21300010: FireballsBig_5
+    21300012: FireballsBig_6
+    21300014: FireballsBig_7
+    21300016: FireballsBig_8
+    21300018: FireballsBig_9
+    21300020: FireballsBig_10
+    21300022: FireballsBig_11
+    21300024: FireballsBig_12
+    21300026: FireballsBig_13
+    21300028: FireballsBig_14
+    21300030: FireballsBig_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 1065, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireballsBig_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_9
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_10
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_12
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_14
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireballsBig_15
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -558.5, y: 33}
+      - {x: -558.5, y: -18}
+      - {x: -544.5, y: -33}
+      - {x: -508.5, y: -33}
+      - {x: -495.5, y: -20}
+      - {x: -495.5, y: 33}
+    - - {x: -491.5, y: 33}
+      - {x: -493.5, y: 27}
+      - {x: -493.5, y: -25}
+      - {x: -481.5, y: -33}
+      - {x: -438.5, y: -33}
+      - {x: -429.5, y: -25}
+      - {x: -429.5, y: 33}
+    - - {x: -423.5, y: 33}
+      - {x: -426.5, y: 30}
+      - {x: -426.5, y: -19}
+      - {x: -419.5, y: -33}
+      - {x: -361.5, y: -33}
+      - {x: -360.5, y: -30}
+      - {x: -360.5, y: 33}
+    - - {x: -295.5, y: 33}
+      - {x: -347.5, y: 33}
+      - {x: -358.5, y: 12}
+      - {x: -358.5, y: -16}
+      - {x: -345.5, y: -33}
+      - {x: -302.5, y: -33}
+      - {x: -292.5, y: -18}
+      - {x: -292.5, y: 12}
+    - - {x: -282.5, y: 33}
+      - {x: -287.5, y: 14}
+      - {x: -287.5, y: -24}
+      - {x: -278.5, y: -33}
+      - {x: -223.5, y: -33}
+      - {x: -220.5, y: -16}
+      - {x: -220.5, y: 33}
+    - - {x: -215.5, y: 33}
+      - {x: -216.5, y: 28}
+      - {x: -216.5, y: -27}
+      - {x: -207.5, y: -33}
+      - {x: -154.5, y: -33}
+      - {x: -149.5, y: -22}
+      - {x: -149.5, y: 33}
+    - - {x: -83.5, y: 8}
+      - {x: -81.5, y: 8}
+      - {x: -79.5, y: 10}
+      - {x: -79.5, y: 33}
+      - {x: -146.5, y: 33}
+      - {x: -146.5, y: -24}
+      - {x: -131.5, y: -33}
+      - {x: -80.5, y: -33}
+      - {x: -79.5, y: -27}
+      - {x: -79.5, y: 8}
+    - - {x: -75.5, y: 33}
+      - {x: -77.5, y: 27}
+      - {x: -77.5, y: -32}
+      - {x: -75.5, y: -33}
+      - {x: -10.5, y: -33}
+      - {x: -10.5, y: 26}
+      - {x: -13.5, y: 33}
+    - - {x: 47.5, y: 33}
+      - {x: -0.5, y: 33}
+      - {x: -6.5, y: 29}
+      - {x: -6.5, y: -24}
+      - {x: 7.5, y: -33}
+      - {x: 56.5, y: -33}
+      - {x: 59.5, y: -31}
+      - {x: 60.5, y: -26}
+      - {x: 60.5, y: 11}
+    - - {x: 126.5, y: -11}
+      - {x: 131.5, y: -11}
+      - {x: 131.5, y: 26}
+      - {x: 130.5, y: 33}
+      - {x: 64.5, y: 33}
+      - {x: 64.5, y: -17}
+      - {x: 78.5, y: -33}
+      - {x: 118.5, y: -33}
+      - {x: 131.5, y: -28}
+      - {x: 131.5, y: -12}
+      - {x: 129.5, y: -11}
+    - - {x: 192.5, y: 33}
+      - {x: 136.5, y: 33}
+      - {x: 136.5, y: -25}
+      - {x: 147.5, y: -33}
+      - {x: 200.5, y: -33}
+      - {x: 203.5, y: -31}
+      - {x: 203.5, y: 29}
+    - - {x: 216.5, y: 33}
+      - {x: 207.5, y: 24}
+      - {x: 207.5, y: -21}
+      - {x: 219.5, y: -33}
+      - {x: 274.5, y: -33}
+      - {x: 274.5, y: 15}
+      - {x: 262.5, y: 33}
+    - - {x: 276.5, y: 33}
+      - {x: 276.5, y: -29}
+      - {x: 278.5, y: -33}
+      - {x: 343.5, y: -33}
+      - {x: 343.5, y: 10}
+      - {x: 336.5, y: 33}
+    - - {x: 412.5, y: 3}
+      - {x: 403.5, y: 30}
+      - {x: 394.5, y: 33}
+      - {x: 351.5, y: 33}
+      - {x: 347.5, y: 25}
+      - {x: 347.5, y: -28}
+      - {x: 353.5, y: -33}
+      - {x: 394.5, y: -33}
+      - {x: 414.5, y: -22}
+      - {x: 414.5, y: 1}
+    - - {x: 421.5, y: -32}
+      - {x: 423.5, y: -33}
+      - {x: 487.5, y: -33}
+      - {x: 487.5, y: 26}
+      - {x: 486.5, y: 33}
+      - {x: 423.5, y: 33}
+      - {x: 421.5, y: 29}
+    - - {x: 491.5, y: 33}
+      - {x: 491.5, y: -9}
+      - {x: 495.5, y: -33}
+      - {x: 549.5, y: -33}
+      - {x: 555.5, y: -21}
+      - {x: 555.5, y: 10}
+      - {x: 551.5, y: 33}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

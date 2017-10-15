@@ -71,11 +71,6 @@ public class MonstersMovement : MonoBehaviour {
             facingRight = movementGeneral.Flip(facingRight, transform);
             directionIndex = -1;
         }
-        //else if (DistanceBetweenMonsterPlayer(false) <= 0.1 && DistanceBetweenMonsterPlayer(false) > 0 && !facingRight)
-        //{
-        //    facingRight = movementGeneral.Flip(facingRight, transform);
-        //    directionIndex = 1;
-        //}
     }
     /**
      * Check distance between monster and player

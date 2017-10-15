@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour {
     public bool facingRight = true;
     Rigidbody2D playerRigidbody;
     Animator anim;
-    Transform playerTransform;
     float groundRadius = 0.2f;
     bool secondJump = true;
 
